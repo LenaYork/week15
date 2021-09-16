@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <section class="main-container">
+        <h1>Калькулятор</h1>
+    
+            <p>Введите два числа:</p>
+    
+            <label for="number1">Введите первое число</label>
+            <input id="number1" placeholer="Число 1">
+
+            <label for="number2">Введите второе число</label>
+            <input id="number2" placeholer="Число 2">
+
+            <p>Выберите нужное арифметическое действие:</p>
+            <section class="button-container">
+                <button id="plusButton">+</button>
+                <button id="minusButton">-</button>
+                <button id="multiplyButton">*</button>
+                <button id="divideButton">/</button>
+            </section>
+            
+        <div class="result">Результат: <span id="result"></span></div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
